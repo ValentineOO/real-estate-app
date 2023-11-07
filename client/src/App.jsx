@@ -1,4 +1,4 @@
-import Header from "./components/header/Header";
+import Header from "./components/Header/Header";
 import Hero from "./components/hero/Hero";
 import "./App.css";
 import Companies from "./components/Companies/Companies";
@@ -15,14 +15,14 @@ function App() {
         <div className="white-gradient" />
 
         <Header />
-        <Hero />
+        {/* <Hero /> */}
       </div>
-      <Companies />
+      {/* <Companies />
       <Residencies />
       <Value />
       <Contact />
       <GetStarted />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
